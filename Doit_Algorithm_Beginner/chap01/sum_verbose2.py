@@ -1,4 +1,4 @@
-# a 부터 b까지 정수의 합 구하기 1
+# a부터 b까지 정수의 합 구하기 2
 
 print('sum a to b')
 a = int(input('a : '))
