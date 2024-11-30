@@ -1,4 +1,8 @@
-a = int(input())
-b = int(input())
+#a = int(input())
+#b = int(input())
+#
+#print(a*b)
 
-print(a*b)
+import sys
+a, b = map(int, sys.stdin.read().split("\n"))
+print(a * b)
