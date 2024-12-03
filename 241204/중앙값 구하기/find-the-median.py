@@ -1,18 +1,6 @@
-a, b, c = map(int, input().split())
+arr = list(map(int, input().split()))
 
-# 11 12 13
-if a > b:
-    if a < c:
-        print(a)
-    elif b > c:
-        print(b)
-    else:
-        print(c)
+n = len(arr)
+arr_sorted = sorted(arr)
 
-elif a > c:
-    if a < b:
-        print(a)
-    elif b < c:
-        print(b)
-    else:
-        print(c) 
+print((arr_sorted[n//2] + arr_sorted[n//2-1])/2 if n%2==0 else arr_sorted[n//2])
