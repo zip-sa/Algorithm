@@ -9,3 +9,8 @@ if A_math == B_math:
 
 if A_math < B_math:
     print("B")
+
+# if a_math > b_math or (a_math == b_math and a_eng > b_eng):
+#     print("A")
+# else:
+#     print("B")
