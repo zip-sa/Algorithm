@@ -1,18 +1,23 @@
-P1_x, P1_y = map(str, input().split())
-P2_x, P2_y = map(str, input().split())
-P3_x, P3_y = map(str, input().split())
+data = [input().split() for _ in range(3)]  # 세 줄 입력받아 리스트로 저장
+count = sum(1 for x, y in data if x == 'Y' and int(y) >= 37)  # 조건에 맞는 경우 카운트
 
-count = 0
+print("E" if count >= 2 else "N")
 
-if count == 0:
-    if P1_x == 'Y' and int(P1_y) >= 37: count += 1
-    if P2_x == 'Y' and int(P2_y) >= 37: count += 1
-    if P3_x == 'Y' and int(P3_y) >= 37: count += 1
-
-if count >= 2:
-    print("E")
-else:
-    print("N")
+# P1_x, P1_y = map(str, input().split())
+# P2_x, P2_y = map(str, input().split())
+# P3_x, P3_y = map(str, input().split())
+# 
+# count = 0
+# 
+# if count == 0:
+#     if P1_x == 'Y' and int(P1_y) >= 37: count += 1
+#     if P2_x == 'Y' and int(P2_y) >= 37: count += 1
+#     if P3_x == 'Y' and int(P3_y) >= 37: count += 1
+# 
+# if count >= 2:
+#     print("E")
+# else:
+#     print("N")
 
 # # 변수 선언 및 입력
 # inp = input().split()
