@@ -1,8 +1,8 @@
 a, b = map(int, input().split())
 print(a, end=' ')
 
-while a < b:
-    if a % 2 != 0: 
+while a <= b and a*2 <= b and a+2 <= b:
+    if a % 2 != 0:
         a *= 2
         print(a, end=' ')
     elif a % 3 != 0: 
