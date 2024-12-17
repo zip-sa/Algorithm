@@ -1,4 +1,4 @@
-# [특정 수 맞히기 ](https://www.codetree.ai/missions/4/problems/catching-specific-number)
+# [특정 수 맞히기 ](https://www.codetree.ai/missions/4/problems/catching-specific-number)
 
 |유형|문제 경험치|난이도|
 |---|---|---|
