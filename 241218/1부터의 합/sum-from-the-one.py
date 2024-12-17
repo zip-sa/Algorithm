@@ -1,8 +1,10 @@
 n = int(input())
-val_sum = 0
+prod = 0
 
-for i in range(1, n+1):
-    if val_sum+i >= n: break
-    val_sum += i
+for i in range(1, 101):
+    prod += i
+    if prod >= n:
+        ans = i
+        break
     
-print(val_sum)
+print(ans)
